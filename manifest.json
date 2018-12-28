@@ -1,0 +1,42 @@
+  {
+    "name": "Check Ya' Later",
+    "version": "1.0",
+    "description": "Allows you to save any interesting links in an article so you can read them once you've finished reading the article.",
+    "manifest_version": 2,
+
+    "background": {
+      "persistent": false,
+      "scripts": ["background.js", "contentscript.js"]
+    },
+    
+    "icons": {
+      "16": "assets/check-icon16.png",
+      "32": "assets/check-icon32.png",
+      "48": "assets/check-icon64.png",
+      "128": "assets/check-icon128.png"
+    },
+
+    "permissions": ["activeTab", "declarativeContent", "storage", "contextMenus"],
+
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "assets/check-icon16.png",
+        "32": "assets/check-icon32.png",
+        "48": "assets/check-icon64.png",
+        "128": "assets/check-icon128.png"
+      }
+    },
+
+    "commands": {
+        "_execute_browser_action": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+F",
+            "mac": "MacCtrl+Shift+F"
+          },
+          "description": "Opens index.html"
+        }
+      }
+    
+
+  }

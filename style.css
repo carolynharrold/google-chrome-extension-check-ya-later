@@ -1,0 +1,89 @@
+header {
+    background-color: #f7d117;
+    border: solid 1px #5F5F5F;
+    padding-left: 15px;
+    border-radius: 3px;
+    box-shadow: 1px 1px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background-color: white;   
+    min-width: 300px; 
+    min-height: 250px; 
+    max-width: 300px; 
+    padding-left: 5px; 
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+i {
+    padding-left: 15px;
+    font-size: 10px;
+    text-align: center;
+    color: #5F5F5F; 
+
+}
+#space {
+    height: 12px;
+}
+
+img {
+    display: block;
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 200px; 
+}
+
+
+#instructions {
+    padding-left: 5px;
+}
+
+#linklist {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 17px;
+    background-color: whitesmoke;  
+    min-height: 230px; 
+    border-radius: 3px;
+    border: solid #5F5F5F 1px;
+    font-size: 14px;
+    box-shadow: 1px 1px;
+}
+
+li {
+    padding-top: 5px;
+    color: #5F5F5F;
+}
+
+button {
+    border-radius: 3px;
+    color: #5F5F5F;
+
+}
+
+a:link {
+    color: #5F5F5F;
+}
+
+a:visited {
+    color: #999999;
+}
+
+a:hover {
+    color: #3BB4E9;
+}
+
+button:hover {
+    color: red;
+}
